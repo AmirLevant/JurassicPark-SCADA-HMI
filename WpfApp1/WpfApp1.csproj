@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="20-201346_transparent-lightning-bolt-lightning-pixel-art-transparent-hd.jpg" />
+    <None Remove="foodRestock.txt" />
+    <None Remove="images\Jurrasic Park.png" />
+    <None Remove="images\lightning_Off.jpg" />
+    <None Remove="images\lightning_On.jpg" />
+    <None Remove="images\lock_Locked.png" />
+    <None Remove="images\lock_Open.png" />
+    <None Remove="lock_Open.png" />
+    <None Remove="personnel.png" />
+    <None Remove="resupply.txt" />
+    <None Remove="textFiles\temperatureDown.txt" />
+    <None Remove="textFiles\temperatureUp.txt" />
+    <None Remove="personnelData.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="images\Jurrasic Park.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="personnel.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="textFiles\foodRestock.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="textFiles\resupply.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="textFiles\temperatureDown.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="textFiles\temperatureUp.txt">
+	<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="textFiles\personnelData.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\lightning_Off.jpg" />
+    <Resource Include="images\lightning_On.jpg" />
+    <Resource Include="images\lock_Locked.png" />
+    <Resource Include="images\lock_Open.png" />
+    <Resource Include="lock_Open.png" />
+  </ItemGroup>
+
+</Project>
