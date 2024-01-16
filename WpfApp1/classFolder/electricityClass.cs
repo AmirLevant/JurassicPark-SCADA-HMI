@@ -17,7 +17,7 @@ namespace WpfApp1.classFolder
 
         public electricityClass()
         {
-            this.electricityLevel = 42068;
+            this.electricityLevel = 42069;
             this.generatorStatus = true;
         }
 
